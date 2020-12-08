@@ -2,7 +2,7 @@
 
 
 # Description
-Application that allows users to search for employees using a searchbar.
+-Application that allows users to view and search for employees.
 
 
 # Deployed Link
