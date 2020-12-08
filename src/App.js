@@ -39,7 +39,7 @@ class App extends Component {
     return (
       <Wrapper>
 
-        <Title>Use the Search Tools to Find an Employee!</Title>
+        <Title>Search For Employee!</Title>
 
         
 

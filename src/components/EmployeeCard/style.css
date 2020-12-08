@@ -5,7 +5,7 @@
   margin: 1rem;
   position: relative;
   width: 325px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  box-shadow: 0 3px 6px rgb(0, 0, 0), 0 3px 6px rgb(190, 29, 29);
   text-align: left;
 }
 
@@ -13,7 +13,7 @@
   height: 60%;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
+  background:rgb(102, 113, 121);
 }
 .card > .img-container > img {
   width: 60%
