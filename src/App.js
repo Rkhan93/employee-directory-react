@@ -4,8 +4,7 @@ import employees from "./employees.json";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import EmployeeCard from "./components/EmployeeCard";
-
-
+import EmailSearch from "./components/Emailsearch";
 
 // import { findRenderedComponentWithType } from 'react-dom/test-utils';
 
@@ -40,9 +39,9 @@ class App extends Component {
     return (
       <Wrapper>
 
-        <Title>Search For Employee!</Title>
+        <Title>Use the Search Tools to Find an Employee!</Title>
 
-        
+        <EmailSearch employeeNarrow={this.filterEmployee} />
 
         {this.state.employees.map(employee => (
           <EmployeeCard
