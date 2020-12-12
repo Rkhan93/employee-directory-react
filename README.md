@@ -6,7 +6,7 @@
 
 
 # Deployed Link
-
+- https://rkhan93.github.io/employee-directory-react/
 
 
 # ScreenShot
